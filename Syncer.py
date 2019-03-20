@@ -3,25 +3,26 @@ from os import path
 from os import listdir
 import shutil
 
-def main(args):
-    A = args[0]
-    B = args[1]
-    src = listdir(args[0])
-
-    while path.isdir(src):
-        
-        for dir in src:
-            s = path.join(A, dir)
-            d = path.join(B, dir)
-            if not path.exists(d):
-                if path.isdir(s):
-                    shutil.copytree(s, d)
-                else:
-                    shutil.copy2(s, d)
+def Sync(src, dir):
+    lst = listdir(src)
+    for file in lst:
+        s = path.join(src, file)
+        d = path.join(dir, file)
+        if not path.exists(d):
+            if path.isdir(s):
+                shutil.copytree(s, d)
             else:
-                if s.__hash__() != d.__hash__():
-                    if not path.isdir(s):
-                        shutil.copy2(s, d)
+                shutil.copy2(s, d)
+        elif path.isdir(s):
+            Sync(s, d)
+        else:
+            if s.__hash__() != d.__hash__():
+                if not path.isdir(s):
+                    shutil.copy2(s, d)
+
+
+def main(args):
+    Sync(args[0], args[1])
 
 
 if __name__ == "__main__":
