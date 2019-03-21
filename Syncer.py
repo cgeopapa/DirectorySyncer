@@ -2,6 +2,7 @@ import sys
 from os import path
 from os import listdir
 import shutil
+import easygui
 
 def Sync(src, dir):
     lst = listdir(src)
@@ -22,7 +23,8 @@ def Sync(src, dir):
 
 
 def main(args):
-    Sync(args[0], args[1])
+    d = easygui.diropenbox("Select a Directory to Sync", "Directory to Sync", args[0])
+    Sync(args[0], d)
 
 
 if __name__ == "__main__":
