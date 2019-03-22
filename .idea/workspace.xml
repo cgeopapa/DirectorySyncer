@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bacd298-095e-43d0-8383-dc14fe479f4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GUISelector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Syncer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Syncer.py" afterDir="false" />
     </list>
@@ -13,13 +14,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Syncer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="86" lean-forward="true" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
+            <state relative-caret-position="220">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUISelector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,15 +56,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/TestDirectories/GUISelector.py" />
         <option value="$PROJECT_DIR$/Syncer.py" />
+        <option value="$PROJECT_DIR$/GUISelector.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="754" />
-    <option name="y" value="98" />
-    <option name="width" value="964" />
-    <option name="height" value="904" />
+    <option name="x" value="290" />
+    <option name="y" value="254" />
+    <option name="width" value="1059" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -64,6 +79,11 @@
             <path>
               <item name="DirectorySyncer" type="b2602c69:ProjectViewProjectNode" />
               <item name="DirectorySyncer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DirectorySyncer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DirectorySyncer" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDirectories" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,16 +153,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="98" width="964" height="904" extended-state="0" />
+    <frame x="290" y="254" width="1059" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16469428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19392753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32814527" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992629" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32814527" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39818418" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -181,12 +201,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestDirectories/GUISelector.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Syncer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="86" lean-forward="true" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
+        <state relative-caret-position="220">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUISelector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
